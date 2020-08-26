@@ -44,6 +44,18 @@ public class Main {
             System.out.println(a);
         }
 
+
+
+        System.out.println();
+        System.out.println();
+        System.out.println("3.");
+        System.out.println();
+
+
+
+
+
+
     }
 
 
