@@ -17,6 +17,8 @@ public class Strecke {
     }
 
     public double getLaenge(){
-    return (Math.sqrt(Math.pow((q.getX-p.getX),2)+Math.pow((q.getY-p.getY),2)));
+        double diffX= this.p.getX()-this.q.getX();
+        double diffY= this.p.getY()-this.q.getY();
+    return (Math.sqrt(Math.pow((diffX),2)+Math.pow((diffY),2)));
     }
 }

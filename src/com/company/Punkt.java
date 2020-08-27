@@ -1,6 +1,7 @@
 package com.company;
 
 public class Punkt {
+
     private double x,y;
 
     Punkt(){};
